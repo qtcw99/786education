@@ -1,0 +1,17 @@
+a.morelink {
+	text-decoration:none;
+	outline: none;
+}
+.morecontent span {
+	display: none;
+
+}
+
+#feature {
+  background: #f2f2f2;
+  padding-bottom: 40px;
+}
+
+    .show-read-more .more-text{
+        display: none;
+    }
