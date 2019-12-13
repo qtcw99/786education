@@ -9,7 +9,7 @@ $tid39 = $('#tid39').val();
 document.getElementById('thnks_pry').innerHTML ="<p>Dear user: Do you know? How much your prayer can make a miraculous effect?<br>When they know that thousands of people are praying daily for the betterment of their lives in the world;<br>By knowing this, they are filled with happiness, their inspirations get strengthen and they start performing their duties with new vigor.</p>";
 $.ajax({
 type: "POST",
-url: "http://localhost/786.education/php/dns.php",
+url: "http://localhost/wp/php/dns.php",
 data: {
 tid39: $tid39
 },
@@ -25,7 +25,7 @@ displayResult();
 
 function displayResult(){
 $.ajax({
-url: 'php/dns.php',
+url: 'http://localhost/wp/php/dns.php',
 type: 'POST',
 async: false,
 data:{
@@ -55,7 +55,7 @@ $tid30 = $('#tid30').val();
     document.getElementById('user_message').innerHTML ='<div class="alert alert-success alert-dismissible fade in"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a><strong>Success!</strong> Dear ' + $tid92 + ', your message has been successfully submitted.</div>';
 $.ajax({
 type: "POST",
-url: "http://localhost/786.education/php/create.php",
+url: "http://localhost/wp/php/create.php",
 data: {
 tid17: $tid17,
 tid92: $tid92,
@@ -65,7 +65,7 @@ success: function(data){
 $('#tid17').val(''),
 $('#tid30').val('');
 // displayResult2();
-// $('#lastrec').load('http://localhost/786.education/php/create.php');
+// $('#lastrec').load('http://localhost/wp/php/create.php');
 $('#lastrec').html(data);
 }
 });
