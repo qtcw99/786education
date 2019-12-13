@@ -1,37 +1,67 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>
+this is the 786education project which had been  created by me on github
+</title>
 
-You can use the [editor on GitHub](https://github.com/qtcw99/786education/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<link href="bootstrap.min.css" rel="stylesheet">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="animate.min.css" rel="stylesheet">
+<link href="prettyPhoto.css" rel="stylesheet">
+<link href="main.css" rel="stylesheet">
+<link href="readmore.css" rel="stylesheet">
+<link href="responsive.css" rel="stylesheet">
+<!--[if lt IE 9]>
+<script src="html5shiv.js"></script>
+<script src="respond.min.js"></script>
+<![endif]-->
+<link rel="shortcut icon" href="images/ico/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<script type="text/javascript" src="mainframe.js"></script>
+</head>
+<body>
+<h2>This is my project for 786.education</h2>
+<footer id="footer" class="midnight-blue">
+<div class="container">
+<div class="row">
+<div class="col-sm-6">
+&copy; 2019 <a href="http://786.education/">786.education</a>. All Rights Reserved.
+</div>
+<div class="col-sm-6">
+<ul class="pull-right">
+<li><a href="http://786.education/">Home</a></li>
+<li><a href="read-quran/">Read Quran</a></li>
+<li><a href="#">About Us</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</div>
+</div>
+</div>
+</footer>
+<script src="jquery.js"></script>
+<script src="bootstrap.min.js"></script>
+<script src="jquery.prettyPhoto.js"></script>
+<script src="jquery.isotope.min.js"></script>
+<script src="main.js"></script>
+<script src="wow.min.js"></script>
+</body>
+<script src="jquery-3.1.1.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-### Markdown
+<script src= 'https://cdn.rawgit.com/admsev/jquery-play-sound/master/jquery.playSound.js'>     </script> 
+<script type="text/javascript" src="code.js"></script>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/qtcw99/786education/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<script src="clipboard.min.js"></script>
+<script src="copier.js"></script>
+<script type="text/javascript" src="seemore.js"></script>
+<script type="text/javascript" src="voiceinput.js"></script>
+</html>
